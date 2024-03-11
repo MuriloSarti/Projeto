@@ -8,7 +8,7 @@ body{
 
 #menu {
     background: #c5c5b2;
-    padding: 18px
+    padding: 18px;
 }
 
 #conteudo {
@@ -19,8 +19,8 @@ body{
 a {
     color: #4b566a;
     text-decoration: none;
-    font-weight: bold;s
-    padding: 15px;
+    font-weight: bold;
+    padding: 15px; 
 }
 #rodape {
     text-align: center;
