@@ -32,6 +32,70 @@ h1 {
  
 .img-campanha {
     border: 10px solid #c3c3ae;
+
+    /* body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  bottom: 10px;
+}
+
+.marca {
+  height: 100% ;
+  text-align: center;
+  line-height: 200px;
+  background: #030886;
 }
 
 
+.cnt1 {
+float: left;
+width: 63%;
+position: relative;
+right: 470px;
+}
+
+.cnt2 {
+  float: right;
+  width: 34%;
+  position: relative;
+  bottom: 160 px;
+  background: #d1d1d1 ;
+}
+.conteudo {
+  width: 520px;
+  float: right;
+ 
+}
+
+.navegacao {
+  width: 200px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #0207a3;
+}
+ .rodape {
+   clear: both;
+   background: #c4c4c4;
+   padding: 5px;
+ }
+
+
+ a {
+    color: aliceblue  ;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px; 
+ }
+
+li {
+  list-style: none;
+}
+*/ 
