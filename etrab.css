@@ -1,0 +1,46 @@
+body {
+    background:  url(imagens/Black.png) repeat-x;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.principal {
+    width: 1350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.azul {
+    color: #1f348f;
+}
+
+.branco {
+    color:aliceblue;
+}
+
+.w {
+    color: white;
+}
+
+p {
+    width: 900px;
+    font-size: x-large;
+}
+
+.img {
+    position: relative;
+}
+
+.img:hover {
+    width: 300px;
+    transition: 4s;
+
+}
+.plex {
+    margin-bottom: 28px;
+}
+
+.gpt {
+    padding-bottom: 30px;
+}
