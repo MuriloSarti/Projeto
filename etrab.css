@@ -4,7 +4,7 @@ body {
     width: 100%;
     margin: 0 auto;
     height: 100%;
-
+    text-align: left;
 
 }
 
@@ -38,11 +38,23 @@ body {
 p {
     width: 900px;
     font-size: x-large;
+    text-align: justify;
+    text-indent: 30px;
 }
 
 .img {
     position: relative;
 }
+
+.imgam {
+    position: relative;
+}
+
+.imgam:hover {
+    width: 150px;
+    transition: 4s;
+}
+
 
 .img:hover {
     width: 300px;
@@ -60,8 +72,13 @@ p {
     padding-bottom: 30px;
 }
 
+.gamma {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
 h1 {
     color:midnightblue;
+    text-align: center;
 }
 
 .brr {
@@ -70,7 +87,7 @@ h1 {
 }
 .ia {
     position: relative;
-    top: 15px;
+   
     padding: 20px;
 }
 
@@ -118,9 +135,21 @@ a{
     position: relative;
     bottom: px;
     padding: 20px;
+    left: 50px;
 }
 
 .links {
     color: midnightblue;
     font-size: larger;
+}
+
+
+.bt {
+    bottom: 0px;
+    left: 50px;
+}
+
+.linksss {
+    font-size: x-large;
+    color:black;
 }
