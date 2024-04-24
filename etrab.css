@@ -1,3 +1,16 @@
+@media (max-width: 1500px) {
+    .logo ul {
+        position: relative;
+        right: 3%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .logo ul {
+        position: relative;
+        right: 10%;
+    }
+}
 body {
     padding-top: 10px;
     background-color: black;
@@ -18,14 +31,13 @@ body {
 }
 
 .principal {
-    width: 1580px;
     margin: 0 auto;
+    width: 100%;
     padding: 20px;
     border-radius: 40px;
-
 }
 .azul {
-    color: midnightblue;
+    color:blue;
 }
 
 .branco {
@@ -37,10 +49,12 @@ body {
 }
 
 p {
-    width: 900px;
-    font-size: x-large;
+    width: 70%;
+    font-size: xx-large;
     text-align: justify;
     text-indent: 30px;
+    margin-left: 1%;
+    color: black;
 }
 
 .img {
@@ -78,9 +92,11 @@ p {
     padding-bottom: 10px;
 }
 h1 {
-    color:midnightblue;
+    font-size: 30px;
+    color:blue;
     text-align: center;
 }
+
 
 .brr {
     position: relative;
@@ -102,7 +118,7 @@ h1 {
 
 .lateral2 {
     background: rgba(24, 24, 24, 0.459);
-    background: linear-gradient(black, black, midnightblue, midnightblue, midnightblue, black, black);
+    background: linear-gradient(black, black, blue, blue, blue, black, black);
 }
 
 .rodape {
@@ -114,16 +130,18 @@ h1 {
     background: linear-gradient(to left ,black, black, black, black,  black);
 
 }
-li {
-    list-style: none;
-    color: white;
+
+.logo li {
     float: left;
-    position: relative;
-    left: 725px;
-    bottom: 50px;
-    font-size:x-large;
+    color: white;
+    list-style: none;
 }
 
+.logo ul {
+    position: relative;
+    bottom: 40px;
+    margin-left: 37%;
+}
 a{
     color:aliceblue;
     text-decoration: none;
@@ -154,4 +172,11 @@ a{
 .linksss {
     font-size: x-large;
     color:black;
+}
+
+a:hover {
+    background: rgb(255, 255, 255) 100%;
+    transition: 1s;
+    color: black;
+    border-radius: 4px;
 }
